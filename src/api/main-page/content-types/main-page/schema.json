@@ -1,0 +1,54 @@
+{
+  "kind": "singleType",
+  "collectionName": "main_pages",
+  "info": {
+    "singularName": "main-page",
+    "pluralName": "main-pages",
+    "displayName": "main-page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "name_ru": {
+      "type": "string"
+    },
+    "name_skh": {
+      "type": "string"
+    },
+    "projects": {
+      "type": "string"
+    },
+    "projects_ru": {
+      "type": "string"
+    },
+    "projects_skh": {
+      "type": "string"
+    },
+    "info": {
+      "type": "string"
+    },
+    "info_ru": {
+      "type": "string"
+    },
+    "info_skh": {
+      "type": "string"
+    }
+  }
+}
