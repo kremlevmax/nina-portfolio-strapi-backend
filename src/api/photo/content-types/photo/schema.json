@@ -16,12 +16,7 @@
       "type": "media",
       "multiple": true,
       "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
+      "allowedTypes": ["images", "files", "videos", "audios"]
     },
     "description": {
       "type": "string"
@@ -31,12 +26,6 @@
       "relation": "manyToOne",
       "target": "api::project.project",
       "inversedBy": "photos"
-    },
-    "description_ru": {
-      "type": "string"
-    },
-    "description_skh": {
-      "type": "string"
     }
   }
 }

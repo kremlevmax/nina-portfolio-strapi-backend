@@ -19,35 +19,12 @@
       "type": "media",
       "multiple": true,
       "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
-    "name_ru": {
-      "type": "string"
-    },
-    "name_skh": {
-      "type": "string"
+      "allowedTypes": ["images", "files", "videos", "audios"]
     },
     "projects": {
       "type": "string"
     },
-    "projects_ru": {
-      "type": "string"
-    },
-    "projects_skh": {
-      "type": "string"
-    },
     "info": {
-      "type": "string"
-    },
-    "info_ru": {
-      "type": "string"
-    },
-    "info_skh": {
       "type": "string"
     }
   }

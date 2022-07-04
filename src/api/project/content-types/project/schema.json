@@ -23,18 +23,6 @@
       "relation": "oneToMany",
       "target": "api::photo.photo",
       "mappedBy": "project"
-    },
-    "title_ru": {
-      "type": "string"
-    },
-    "title_skh": {
-      "type": "string"
-    },
-    "description_ru": {
-      "type": "string"
-    },
-    "description_skh": {
-      "type": "string"
     }
   }
 }
