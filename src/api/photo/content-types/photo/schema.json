@@ -20,12 +20,7 @@
       "type": "media",
       "multiple": true,
       "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
+      "allowedTypes": ["images", "files", "videos", "audios"],
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -33,6 +28,22 @@
       }
     },
     "description": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "description_ru": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "description_skh": {
       "type": "string",
       "pluginOptions": {
         "i18n": {
